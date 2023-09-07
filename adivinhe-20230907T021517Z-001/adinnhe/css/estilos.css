@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(9, 57, 97);
+ }
+ 
+ body {
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #18bb09;
+ }
+ 
+ h1 {
+    font-family: 'Rancho', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+ }
+ 
+ .main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    width: 1000px;
+ }
+ 
+ .game {
+    box-shadow: 10px 5px 15px rgb(49, 182, 31);
+ }
+ 
+ .game,
+ form {
+    background-color: #a1e594;
+    padding: 1.8rem;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .game>div {
+    padding: 0.5rem;
+ }
+ 
+ .form input,
+ .form label,
+ .form button {
+    margin-top: 1rem;
+ }
+ 
+ .form input,
+ .form button {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5rem;
+    color: #13bd21;
+ }
+ 
+ .form button {
+    cursor: pointer;
+    color: rgb(117, 203, 236);
+ }
+ 
+ .form button:hover {
+    filter: opacity(0.8);
+ }
+ #logo {
+    float: right;
+    margin: 100px;
+ }
+ #rodape {
+    background-color: aquamarine;
+    float: inline-end;
+ }
+ 
+ .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eefff5;
+    color: rgb(243, 237, 237);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
